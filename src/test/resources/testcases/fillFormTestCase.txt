@@ -1,0 +1,22 @@
+0) TEST_DATA:
+[
+    ['John Jackson'   | 'john.jackson@gmail.com'     | 'Washington' | 'Massachusetts' ],
+    ['Hailie Jackson' | 'hailie.jackson@hotmail.com' | 'Washington' | 'Washington' ],
+    ['Valarie Rivera' | 'valarie.rivera@gmail.com'   | 'Nevada'     | 'Virginia'],
+    ['Linzi Morgan'   | 'linzi.morgan@mail.ru'       | 'Virginia'   | 'Nevada' ]
+]
+
+1) ЗАГОЛОВОК: "В output блоке отображается FullName 'TES_DATA[0]', Email 'TES_DATA[1]', CurrentAddress 'TES_DATA[2]', PermanentAddress 'TES_DATA[0]'"
+2) ПРИОРОИТЕТ: BLOCKER
+3) ПРЕДУСЛОВИЯ: - Открыт браузер chrome, location: https://demoqa.com/
+4) ШАГИ
+- открыть вкладку text-box
+- удалить баннеры
+- ввести в поле ввода Full Name
+- ввести в поле ввода Email
+- ввести в поле ввода Current Address
+- ввести в поле ввода Permanent Address
+- нажать кнопку Submit
+
+5) ОЖИДАЕМЫЙ РЕЗУЛЬТАТ:
+- блок output не пустой
